@@ -1,0 +1,25 @@
+.board {
+  background-color: #ccc;
+  height: 300px;
+  margin: 20px;
+  padding: 5px;
+  width: 300px;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.item {
+  aspect-ratio: 1;
+  width: 40px;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.black {
+  background-color: #000;
+}
